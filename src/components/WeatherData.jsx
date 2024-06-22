@@ -2,7 +2,7 @@ import WeatherIcon from "./WeatherIcon";
 
 const WeatherData = ({ forecast }) => {
   return (
-    <div className="weather border border-gray-300 flex-1 p-2.5 text-center text-white">
+    <div className="border border-gray-300 flex-1 p-2.5 text-center text-white">
       <h2 className="mt-4">{forecast.day}</h2>
       <WeatherIcon src={forecast.img} alt={forecast.imgAlt} />
       <p className="my-4">
